@@ -70,9 +70,10 @@ h1 {
 /* Create two unequal columns that floats next to each other */
 
 .column {
+  display: flex;
   float: left;
   padding: 10px;
-  
+  align-items: center;
 }
 
 .left {
